@@ -241,6 +241,11 @@ td {
   font-family: "Kdam Thmor Pro", sans-serif;
   font-size: 50px;
 }
+.about-us-mv {
+ text-align: center;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 40px; 
+}  
 .about-subtitle {
   text-align: left;
   font-family: "Kdam Thmor Pro", sans-serif;
@@ -248,9 +253,8 @@ td {
 }
 .night-story {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-
 }
 .night-story p {
   margin: 50px;
@@ -262,7 +266,7 @@ td {
 }
 .purpose {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 .purpose p {
@@ -275,7 +279,7 @@ td {
 }
 .mission {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 .mission p {
@@ -288,7 +292,7 @@ td {
 }
 .vision {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 .vision p {
