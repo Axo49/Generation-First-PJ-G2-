@@ -115,46 +115,43 @@ button:hover {
 }
 
 /*Menu Page*/
-.menutitle{
+.menutitle {
   text-align: center;
   font-family: "Kdam Thmor Pro", sans-serif;
   font-size: 50px;
 }
 
-#champagne1{
+#champagne1 {
   margin-left: 200px;
   line-height: 2.5em;
 }
-#redwine{
-  margin-left: 200px;
-  margin-top:100px;
-  line-height: 2.5em;
-}
-#redwine{
+#redwine {
   margin-left: 200px;
   margin-top:100px;
   line-height: 2.5em;
 }
-#whitewine{
+#redwine {
+  margin-left: 200px;
+  margin-top:100px;
+  line-height: 2.5em;
+}
+#whitewine {
   margin-left: 200px;
   margin-top:100px;
   line-height: 2.5em;
 }
 
-#whisky2{
+#whisky2 {
   margin-left: 200px;
   margin-top:100px;
   line-height: 2.5em;
-  
-  
 }
-#submit1{
+#submit1 {
   text-align: center;
   margin-top: 80px;
-  margin-bottom: 80px;
-  
+  margin-bottom: 80px; 
 }
-#submit2{
+#submit2 {
   background-color: rgba(0, 136, 169, 1);
   border: none;
   border-radius: 50px;
@@ -162,13 +159,142 @@ button:hover {
   cursor: pointer;
   color: white;
   font-size: xx-large;
-  
 }
 
-#submit2:hover{
+#submit2:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
 td { 
   padding: 1em; 
   padding-right: 5em; 
 } 
+
+/* knowledge content style */
+.knowledge {
+  text-align: center;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 50px;
+}
+.subtitle {
+  text-align: left;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 30px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.champagne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.champagne p {
+  margin: 70px;
+  line-height: 3em;
+  font-weight: 100px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+.redwine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.redwine p {
+  margin: 70px;
+  line-height: 3em;
+  font-weight: 100px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+.whitewine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.whitewine p {
+  margin: 70px;
+  line-height: 3em;
+  font-weight: 100px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+.whisky {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.whisky p {
+  margin: 70px;
+  line-height: 3em;
+  font-weight: 100px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+
+/* About style */
+.about-us {
+  text-align: center;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 50px;
+}
+.about-subtitle {
+  text-align: left;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 30px;
+}
+.night-story {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.night-story p {
+  margin: 50px;
+  line-height: 3em;
+  font-weight: 100px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+.purpose {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.purpose p {
+  margin: 50px;
+  line-height: 3em;
+  font-weight: 100px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+.mission {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mission p {
+  margin: 50px;
+  line-height: 3em;
+  font-weight: 100px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+.vision {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.vision p {
+  margin: 50px;
+  line-height: 3em;
+  font-weight: 100px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
