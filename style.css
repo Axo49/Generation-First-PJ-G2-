@@ -16,11 +16,7 @@
   color: white;
 }
 
-<<<<<<< HEAD
 /* Nav Bars*/
-=======
-/* mo */
->>>>>>> 5925cb73663cee2c0353e3d6c317ece2bffaad57
 li,
 a,
 button {
@@ -118,7 +114,6 @@ button:hover {
   left: 1750px;
 }
 
-<<<<<<< HEAD
 /*Menu Page*/
 .menutitle{
   text-align: center;
@@ -126,7 +121,7 @@ button:hover {
   font-size: 50px;
 }
 
-#champagne{
+#champagne1{
   margin-left: 200px;
   line-height: 2.5em;
 }
@@ -177,5 +172,3 @@ td {
   padding: 1em; 
   padding-right: 5em; 
 } 
-=======
->>>>>>> 5925cb73663cee2c0353e3d6c317ece2bffaad57
