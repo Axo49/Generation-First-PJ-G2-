@@ -1,5 +1,6 @@
-/* contactUS style */
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+/* contactUS style */
 .contactUs {
   background-color: purple;
 }
@@ -14,8 +15,9 @@
     "Lucida Sans", Arial, sans-serif;
   font-style: oblique;
   color: white;
-}
+} 
 
+/* nav bar */
 li, a, button{
   font-family:  'Kdam Thmor Pro', sans-serif;
   font-size: larger;
@@ -69,23 +71,16 @@ button:hover{
   opacity: 0.8;
   height: 450px;
 }
+
+/* main */
 #twopic{
   width:700px;
   height:500px;
 }
-.collection{
-  text-align: center;
-  font-family:  'Kdam Thmor Pro', sans-serif;
-  font-size: 50px;
-}
+
 .hr1{
   margin-top: 50px;
   margin-bottom: 30px;
-}
-.hr2{
-  margin-top: 30px;
-
-
 }
 .intro{
   display:flex;
@@ -107,5 +102,22 @@ button:hover{
   position:absolute;
   right: 350px;
   top: 1050px;
+}
+
+/* collection */
+.collection{
+  text-align: center;
+  font-family:  'Kdam Thmor Pro', sans-serif;
+  font-size: 50px;
+}
+.hr2{
+  margin-top: 30px;
+}
+
+/* menu */
+.menutitle{
+  text-align: center;
+  font-family:  'Kdam Thmor Pro', sans-serif;
+  font-size: 50px;
 }
 

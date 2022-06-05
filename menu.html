@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All night lounge</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+</head>
 
-  <body class="main-layout">
+<body class="main-layout">
     <!-- Navbar -->
     <header>
-      <nav>
-        <ul class="nav_link">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="About.html">About</a></li>
-          <li><a href="knowledge.html">Knowledge</a></li>
-        </ul>
-      </nav>
+        <nav>
+            <ul class="nav_link">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="knowledge.html">Knowledge</a></li>
+            </ul>
+        </nav>
 
-      <a class="name" href="index.html">All Night Lounge</a>
-      <a class="btn" href="#contact"><button>Contact us</button></a>
+        <a class="name" href="index.html">All Night Lounge</a>
+        <a class="btn" href="#contact"><button>Contact us</button></a>
     </header>
     <!-- Title -->
-        <main>
+    <main>
         <div class='jumbotro'>
             <div transform: translate3d(0px, 359.5px, 0px); background: url('lounge.webp'); opacity: 1;>
                 <img alt='lounge' id='onepic' src="louge.webp" width="100%" height="100%" />
@@ -34,390 +35,241 @@
     </main>
     <hr class='hr1'>
 
-    <h2>Our Collection</h2>
+    <h2 class='menutitle'>Our Collection</h2>
     <!-- Carousell -->
-    <h3>Brandy Scotch Wine Cocktail Beer Cigar</h3>
 
     <!-- Main content -->
     <article id="champagne">
-      <h3>Champagne</h3>
-      <p></p>
-      <table>
-        <tr>
-          <th scope="col">Name</th>
-          <th scope="col"><label for="150ml">150ml Glass</label></th>
-          <th scope="col"><label for="750ml">750ml Bottle</label></th>
-          <th scope="col">Qty</th>
-        </tr>
-        <tr>
-          <td>
-            Billecart-Salmon Brut Réserve, Chardonnay, Champagne, France N.V.
-          </td>
-          <td>
-            <input
-              id="150ml"
-              type="radio"
-              name="qty"
-              value="150ml"
-              required
-            />$165
-          </td>
-          <td>
-            <input
-              id="750ml"
-              type="radio"
-              name="qty"
-              value="750ml"
-              required
-            />$820
-          </td>
-          <td>
-            <label for="qty"></label>
-            <input id="qty" name="qty" type="number" min="0" max="50" />
-          </td>
-        </tr>
-        <tr>
-          <td>Pol Roger Réserve Brut, Chardonnay, Champagne, France N.V.</td>
-          <td>
-            <input
-              id="150ml"
-              type="radio"
-              name="qty"
-              value="150ml"
-              required
-            />$160
-          </td>
-          <td>
-            <input
-              id="750ml"
-              type="radio"
-              name="qty"
-              value="750ml"
-              required
-            />$800
-          </td>
-          <td>
-            <label for="qty"></label>
-            <input id="qty" name="qty" type="number" min="0" max="50" />
-          </td>
-        </tr>
-        <tr>
-          <td>Dom Pérignon Brut, Pinot Noir, Champagne, France 2012</td>
-          <td>
-            <input
-              id="150ml"
-              type="radio"
-              name="qty"
-              value="150ml"
-              required
-            />$800
-          </td>
-          <td>
-            <input
-              id="750ml"
-              type="radio"
-              name="qty"
-              value="750ml"
-              required
-            />$3500
-          </td>
-          <td>
-            <label for="qty"></label>
-            <input id="qty" name="qty" type="number" min="0" max="50" />
-          </td>
-        </tr>
-      </table>
+        <h3>Champagne</h3>
+        <p></p>
+        <table>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col"><label for="150ml">150ml Glass</label></th>
+                <th scope="col"><label for="750ml">750ml Bottle</label></th>
+                <th scope="col">Qty</th>
+            </tr>
+            <tr>
+                <td>
+                    Billecart-Salmon Brut Réserve, Chardonnay, Champagne, France N.V.
+                </td>
+                <td>
+                    <input id="150ml" type="radio" name="qty" value="150ml" required />$165
+                </td>
+                <td>
+                    <input id="750ml" type="radio" name="qty" value="750ml" required />$820
+                </td>
+                <td>
+                    <label for="qty"></label>
+                    <input id="qty" name="qty" type="number" min="0" max="50" />
+                </td>
+            </tr>
+            <tr>
+                <td>Pol Roger Réserve Brut, Chardonnay, Champagne, France N.V.</td>
+                <td>
+                    <input id="150ml" type="radio" name="qty" value="150ml" required />$160
+                </td>
+                <td>
+                    <input id="750ml" type="radio" name="qty" value="750ml" required />$800
+                </td>
+                <td>
+                    <label for="qty"></label>
+                    <input id="qty" name="qty" type="number" min="0" max="50" />
+                </td>
+            </tr>
+            <tr>
+                <td>Dom Pérignon Brut, Pinot Noir, Champagne, France 2012</td>
+                <td>
+                    <input id="150ml" type="radio" name="qty" value="150ml" required />$800
+                </td>
+                <td>
+                    <input id="750ml" type="radio" name="qty" value="750ml" required />$3500
+                </td>
+                <td>
+                    <label for="qty"></label>
+                    <input id="qty" name="qty" type="number" min="0" max="50" />
+                </td>
+            </tr>
+        </table>
     </article>
 
     <article id="red wine">
-      <h3>Red Wine</h3>
-      <p></p>
-      <table>
-        <tr>
-          <th scope="col">Name</th>
-          <th scope="col"><label for="150ml">150ml Glass</label></th>
-          <th scope="col"><label for="750ml">750ml Bottle</label></th>
-          <th scope="col">Qty</th>
-        </tr>
-        <tr>
-          <td>
-            Château les Ormes, Cabernet Sauvignon, Saint-Julien, France 2007
-          </td>
-          <td>
-            <input
-              id="150ml"
-              type="radio"
-              name="qty"
-              value="150ml"
-              required
-            />$155
-          </td>
-          <td>
-            <input
-              id="750ml"
-              type="radio"
-              name="qty"
-              value="750ml"
-              required
-            />$650
-          </td>
-          <td>
-            <label for="qty"></label>
-            <input id="qty" name="qty" type="number" min="0" max="50" />
-          </td>
-        </tr>
-        <tr>
-          <td>Louis Jadot, Pinot Noir, Pernand-Vergelesses, France 2018</td>
-          <td>
-            <input
-              id="150ml"
-              type="radio"
-              name="qty"
-              value="150ml"
-              required
-            />$198
-          </td>
-          <td>
-            <input
-              id="750ml"
-              type="radio"
-              name="qty"
-              value="750ml"
-              required
-            />$1000
-          </td>
-          <td>
-            <label for="qty"></label>
-            <input id="qty" name="qty" type="number" min="0" max="50" />
-          </td>
-        </tr>
-        <tr>
-          <td>Beringer, Cabernet Sauvignon, Napa Valley, USA 2015</td>
-          <td>
-            <input
-              id="150ml"
-              type="radio"
-              name="qty"
-              value="150ml"
-              required
-            />$200
-          </td>
-          <td>
-            <input
-              id="750ml"
-              type="radio"
-              name="qty"
-              value="750ml"
-              required
-            />$900
-          </td>
-          <td>
-            <label for="qty"></label>
-            <input id="qty" name="qty" type="number" min="0" max="50" />
-          </td>
-        </tr>
-      </table>
+        <h3>Red Wine</h3>
+        <p></p>
+        <table>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col"><label for="150ml">150ml Glass</label></th>
+                <th scope="col"><label for="750ml">750ml Bottle</label></th>
+                <th scope="col">Qty</th>
+            </tr>
+            <tr>
+                <td>
+                    Château les Ormes, Cabernet Sauvignon, Saint-Julien, France 2007
+                </td>
+                <td>
+                    <input id="150ml" type="radio" name="qty" value="150ml" required />$155
+                </td>
+                <td>
+                    <input id="750ml" type="radio" name="qty" value="750ml" required />$650
+                </td>
+                <td>
+                    <label for="qty"></label>
+                    <input id="qty" name="qty" type="number" min="0" max="50" />
+                </td>
+            </tr>
+            <tr>
+                <td>Louis Jadot, Pinot Noir, Pernand-Vergelesses, France 2018</td>
+                <td>
+                    <input id="150ml" type="radio" name="qty" value="150ml" required />$198
+                </td>
+                <td>
+                    <input id="750ml" type="radio" name="qty" value="750ml" required />$1000
+                </td>
+                <td>
+                    <label for="qty"></label>
+                    <input id="qty" name="qty" type="number" min="0" max="50" />
+                </td>
+            </tr>
+            <tr>
+                <td>Beringer, Cabernet Sauvignon, Napa Valley, USA 2015</td>
+                <td>
+                    <input id="150ml" type="radio" name="qty" value="150ml" required />$200
+                </td>
+                <td>
+                    <input id="750ml" type="radio" name="qty" value="750ml" required />$900
+                </td>
+                <td>
+                    <label for="qty"></label>
+                    <input id="qty" name="qty" type="number" min="0" max="50" />
+                </td>
+            </tr>
+        </table>
     </article>
 
     <article id="white wine">
-      <h3>White Wine</h3>
-      <p></p>
-      <table>
-        <tr>
-          <th scope="col">Name</th>
-          <th scope="col"><label for="150ml">150ml Glass</label></th>
-          <th scope="col"><label for="750ml">750ml Bottle</label></th>
-          <th scope="col">Qty</th>
-        </tr>
-        <tr>
-          <td>Château Brown, Sauvignon Blanc, Pessac-Léognan, France 2019</td>
-          <td>
-            <input
-              id="150ml"
-              type="radio"
-              name="qty"
-              value="150ml"
-              required
-            />$130
-          </td>
-          <td>
-            <input
-              id="750ml"
-              type="radio"
-              name="qty"
-              value="750ml"
-              required
-            />$680
-          </td>
-          <td>
-            <label for="qty"></label>
-            <input id="qty" name="qty" type="number" min="0" max="50" />
-          </td>
-        </tr>
-        <tr>
-          <td>Yann Durieux Love and Pif, Aligoté, Bourgogne, France 2018</td>
-          <td>
-            <input
-              id="150ml"
-              type="radio"
-              name="qty"
-              value="150ml"
-              required
-            />$186
-          </td>
-          <td>
-            <input
-              id="750ml"
-              type="radio"
-              name="qty"
-              value="750ml"
-              required
-            />$800
-          </td>
-          <td>
-            <label for="qty"></label>
-            <input id="qty" name="qty" type="number" min="0" max="50" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Ata Rangi Craighall, Chardonnay, Martinborough, New Zealand 2017
-          </td>
-          <td>
-            <input
-              id="150ml"
-              type="radio"
-              name="qty"
-              value="150ml"
-              required
-            />$170
-          </td>
-          <td>
-            <input
-              id="750ml"
-              type="radio"
-              name="qty"
-              value="750ml"
-              required
-            />$720
-          </td>
-          <td>
-            <label for="qty"></label>
-            <input id="qty" name="qty" type="number" min="0" max="50" />
-          </td>
-        </tr>
-      </table>
+        <h3>White Wine</h3>
+        <p></p>
+        <table>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col"><label for="150ml">150ml Glass</label></th>
+                <th scope="col"><label for="750ml">750ml Bottle</label></th>
+                <th scope="col">Qty</th>
+            </tr>
+            <tr>
+                <td>Château Brown, Sauvignon Blanc, Pessac-Léognan, France 2019</td>
+                <td>
+                    <input id="150ml" type="radio" name="qty" value="150ml" required />$130
+                </td>
+                <td>
+                    <input id="750ml" type="radio" name="qty" value="750ml" required />$680
+                </td>
+                <td>
+                    <label for="qty"></label>
+                    <input id="qty" name="qty" type="number" min="0" max="50" />
+                </td>
+            </tr>
+            <tr>
+                <td>Yann Durieux Love and Pif, Aligoté, Bourgogne, France 2018</td>
+                <td>
+                    <input id="150ml" type="radio" name="qty" value="150ml" required />$186
+                </td>
+                <td>
+                    <input id="750ml" type="radio" name="qty" value="750ml" required />$800
+                </td>
+                <td>
+                    <label for="qty"></label>
+                    <input id="qty" name="qty" type="number" min="0" max="50" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ata Rangi Craighall, Chardonnay, Martinborough, New Zealand 2017
+                </td>
+                <td>
+                    <input id="150ml" type="radio" name="qty" value="150ml" required />$170
+                </td>
+                <td>
+                    <input id="750ml" type="radio" name="qty" value="750ml" required />$720
+                </td>
+                <td>
+                    <label for="qty"></label>
+                    <input id="qty" name="qty" type="number" min="0" max="50" />
+                </td>
+            </tr>
+        </table>
     </article>
 
     <article id="whsiky">
-      <h3>Whisky</h3>
-      <p></p>
-      <table>
-        <tr>
-          <th scope="col">Name</th>
-          <th scope="col"><label for="30ml">30ml Shot</label></th>
-          <th scope="col"><label for="700ml">700ml Bottle</label></th>
-          <th scope="col">Qty</th>
-        </tr>
-        <tr>
-          <td>Macallan 12 Years, Speyside, Scotland</td>
-          <td>
-            <input
-              id="30ml"
-              type="radio"
-              name="qty"
-              value="30ml"
-              required
-            />$138
-          </td>
-          <td>
-            <input
-              id="700ml"
-              type="radio"
-              name="qty"
-              value="700ml"
-              required
-            />$2200
-          </td>
-          <td>
-            <label for="qty"></label>
-            <input id="qty" name="qty" type="number" min="0" max="50" />
-          </td>
-        </tr>
-        <tr>
-          <td>Lagavulin 16 Years, Island. Scotland</td>
-          <td>
-            <input
-              id="30ml"
-              type="radio"
-              name="qty"
-              value="30ml"
-              required
-            />$168
-          </td>
-          <td>
-            <input
-              id="700ml"
-              type="radio"
-              name="qty"
-              value="700ml"
-              required
-            />$2000
-          </td>
-          <td>
-            <label for="qty"></label>
-            <input id="qty" name="qty" type="number" min="0" max="50" />
-          </td>
-        </tr>
-        <tr>
-          <td>Hibiki Harmony, Japan</td>
-          <td>
-            <input
-              id="30ml"
-              type="radio"
-              name="qty"
-              value="30ml"
-              required
-            />$258
-          </td>
-          <td>
-            <input
-              id="700ml"
-              type="radio"
-              name="qty"
-              value="700ml"
-              required
-            />$3800
-          </td>
-          <td>
-            <label for="qty"></label>
-            <input id="qty" name="qty" type="number" min="0" max="50" />
-          </td>
-        </tr>
-      </table>
+        <h3>Whisky</h3>
+        <p></p>
+        <table>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col"><label for="30ml">30ml Shot</label></th>
+                <th scope="col"><label for="700ml">700ml Bottle</label></th>
+                <th scope="col">Qty</th>
+            </tr>
+            <tr>
+                <td>Macallan 12 Years, Speyside, Scotland</td>
+                <td>
+                    <input id="30ml" type="radio" name="qty" value="30ml" required />$138
+                </td>
+                <td>
+                    <input id="700ml" type="radio" name="qty" value="700ml" required />$2200
+                </td>
+                <td>
+                    <label for="qty"></label>
+                    <input id="qty" name="qty" type="number" min="0" max="50" />
+                </td>
+            </tr>
+            <tr>
+                <td>Lagavulin 16 Years, Island. Scotland</td>
+                <td>
+                    <input id="30ml" type="radio" name="qty" value="30ml" required />$168
+                </td>
+                <td>
+                    <input id="700ml" type="radio" name="qty" value="700ml" required />$2000
+                </td>
+                <td>
+                    <label for="qty"></label>
+                    <input id="qty" name="qty" type="number" min="0" max="50" />
+                </td>
+            </tr>
+            <tr>
+                <td>Hibiki Harmony, Japan</td>
+                <td>
+                    <input id="30ml" type="radio" name="qty" value="30ml" required />$258
+                </td>
+                <td>
+                    <input id="700ml" type="radio" name="qty" value="700ml" required />$3800
+                </td>
+                <td>
+                    <label for="qty"></label>
+                    <input id="qty" name="qty" type="number" min="0" max="50" />
+                </td>
+            </tr>
+        </table>
     </article>
     <input type="submit" value="Order" />
-  </body>
-  <!-- Contact Us -->
-  <footer class="contactUs">
+</body>
+<!-- Contact Us -->
+<footer class="contactUs">
     <div class="contact" id="contact">
-      <div class="contactInfo">
-        <h2>Contact Us</h2>
-        <p>Phone Number: +852 1111 2222</p>
-        <p>Email: lounge123123@gmail.com</p>
-        <p>Address: 觀塘APM10樓C室</p>
-      </div>
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7382.169802603218!2d114.22345111855562!3d22.3126286170932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404014f93f2b10f%3A0xf5e1a2461194aa9a!2sAPM!5e0!3m2!1szh-TW!2shk!4v1654232585144!5m2!1szh-TW!2shk"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
+        <div class="contactInfo">
+            <h2>Contact Us</h2>
+            <p>Phone Number: +852 1111 2222</p>
+            <p>Email: lounge123123@gmail.com</p>
+            <p>Address: 觀塘APM10樓C室</p>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7382.169802603218!2d114.22345111855562!3d22.3126286170932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404014f93f2b10f%3A0xf5e1a2461194aa9a!2sAPM!5e0!3m2!1szh-TW!2shk!4v1654232585144!5m2!1szh-TW!2shk"
+                width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
-  </footer>
+</footer>
+
 </html>
