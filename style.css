@@ -112,8 +112,8 @@ button:hover {
 }
 .topButton {
   position: fixed;
-  top: 880px;
-  left: 1750px;
+  top: 90%;
+  left: 90%;
 }
 
 /* index main context style */
