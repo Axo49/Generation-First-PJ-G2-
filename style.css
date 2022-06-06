@@ -97,7 +97,9 @@ button:hover {
   margin: 70px;
   line-height: 3em;
   font-weight: 100px;
-  font-size: 15px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
 }
 .key {
   font-size: 50px;
@@ -112,6 +114,80 @@ button:hover {
   position: fixed;
   top: 880px;
   left: 1750px;
+}
+
+/* index main context style */
+.subtitle-index {
+  text-align: left;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 30px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.champagne-index {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.champagne-index p {
+  margin: 70px;
+  line-height: 3em;
+  font-weight: 100px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+.burgundy-index {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.burgundy-index p {
+  margin: 70px;
+  line-height: 3em;
+  font-weight: 100px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+.bordeaux-index {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bordeaux-index p {
+  margin: 70px;
+  line-height: 3em;
+  font-weight: 100px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+.americiane-index {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.americiane-index p {
+  margin: 70px;
+  line-height: 3em;
+  font-weight: 100px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+.macallan-index {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.macallan-index p {
+  margin: 70px;
+  line-height: 3em;
+  font-weight: 100px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
 }
 
 /*Menu Page*/
@@ -301,4 +377,8 @@ td {
   font-weight: 100px;
   font-size: 24px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+<<<<<<< HEAD
   "Lucida Sans", Arial, sans-serif;}
+=======
+  "Lucida Sans", Arial, sans-serif;
+>>>>>>> refs/remotes/origin/main
