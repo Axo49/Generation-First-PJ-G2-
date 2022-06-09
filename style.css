@@ -27,14 +27,6 @@ body {
 }
 
 /* Nav Bars*/
-li,
-a,
-button {
-  font-family: "Kdam Thmor Pro", sans-serif;
-  font-size: larger;
-  color: white;
-  text-decoration: none;
-}
 header {
   display: flex;
   justify-content: space-between;
@@ -44,6 +36,14 @@ header {
   z-index: 10;
   position: fixed;
   width: 100%;
+}
+li,
+a,
+button {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: larger;
+  color: white;
+  text-decoration: none;
 }
 
 .nav_link {
@@ -91,7 +91,7 @@ button:hover {
   background-image: url('louge.webp');
   background-size: contain;
   background-position: center ;
-  height: 500px;
+  height: 600px;
   opacity: 0.7;
   z-index: -50;
   
@@ -101,7 +101,7 @@ button:hover {
   color:white;
   text-align: center;
   position: relative;
-  top: 140px;
+  top: 200px;
   font-size: 80px;
 
 }
@@ -110,7 +110,7 @@ button:hover {
   color: white;
   text-align: center;
   position: relative;
-  top: 160px;
+  top: 220px;
   font-size: 80px;
 }
 
