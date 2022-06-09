@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box
+}
 /* contactUS style */
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 .contactUs {
@@ -27,13 +30,20 @@ button {
 }
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  background-color: purple;
-  padding: 0 20px;
+  background-color: rgb(36, 16, 54);
+  padding: 0;
+  z-index: 10;
+  position: fixed;
+  width: 100%; 
+
+  
 }
+
 .nav_link {
   list-style: none;
+  
 }
 .nav_link li {
   display: inline-block;
@@ -43,15 +53,16 @@ header {
   transition: all 0.3s ease 0s;
 }
 .nav_link li a:hover {
-  color: green;
+  color: rgb(242, 250, 7 );
 }
 button {
-  padding: 9px 25px;
+  padding: 9px 20px;
   background-color: rgba(0, 136, 169, 1);
   border: none;
   border-radius: 50px;
   font-size: 15px;
   cursor: pointer;
+  
 
   transition: all 0.3s ease 0s;
 }
@@ -63,7 +74,7 @@ button:hover {
   margin-right: 200px;
 }
 .name:hover {
-  color: green;
+  color: rgb(242, 250, 7 );
 }
 #onepic {
   opacity: 0.8;
