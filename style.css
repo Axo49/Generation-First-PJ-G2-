@@ -18,6 +18,9 @@ body {
   font-style: oblique;
   color: white;
 }
+.btn {
+  margin-right: 60px;
+}
 
 /* Nav Bars*/
 li,
@@ -32,12 +35,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: purple;
+  background-color: rgb(36, 16, 54);
   padding: 0;
+  z-index: 10;
   position: fixed;
-  z-index: 2;
   width: 100%;
 }
+
 .nav_link {
   list-style: none;
 }
@@ -49,10 +53,10 @@ header {
   transition: all 0.3s ease 0s;
 }
 .nav_link li a:hover {
-  color: green;
+  color: rgb(242, 250, 7);
 }
 button {
-  padding: 9px 25px;
+  padding: 9px 20px;
   background-color: rgba(0, 136, 169, 1);
   border: none;
   border-radius: 50px;
@@ -69,7 +73,7 @@ button:hover {
   margin-right: 200px;
 }
 .name:hover {
-  color: green;
+  color: rgb(242, 250, 7);
 }
 #onepic {
   opacity: 0.8;
