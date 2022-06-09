@@ -4,7 +4,7 @@ body {
 /* contactUS style */
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 .contactUs {
-  background-color: purple;
+  background-color: rgb(36, 16, 54);
 }
 .contact {
   padding: 30px;
@@ -71,6 +71,12 @@ button {
 }
 button:hover {
   background-color: rgba(0, 136, 169, 0.8);
+  color: black;
+}
+.topButton button:hover{
+  color: rgb(19, 212, 154);
+  transition: color 300ms ease-in 30ms;
+
 }
 .name {
   font-size: 30px;
