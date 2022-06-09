@@ -21,6 +21,10 @@ body {
 .btn {
   margin-right: 60px;
 }
+#BackToUp {
+  display: hidden;
+  margin: 0;
+}
 
 /* Nav Bars*/
 li,
